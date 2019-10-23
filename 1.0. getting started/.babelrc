@@ -1,9 +1,8 @@
 {
     "presets": [
-        "es2016", "react"
+        "@babel/react"
     ],
     "plugins": [
-        "transform-class-properties",
-        "@babel/plugin-transform-spread"
+        "@babel/plugin-proposal-object-rest-spread"
     ]
 }
